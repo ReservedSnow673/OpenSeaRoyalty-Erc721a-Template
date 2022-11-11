@@ -1,0 +1,1 @@
+# OpenSeaRoyalty-Erc721a-Template
