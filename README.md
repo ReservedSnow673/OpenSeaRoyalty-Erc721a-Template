@@ -18,7 +18,7 @@ This repo includes new royalty policy implementation for Erc721A contract standa
 You can contract me through my Discord - ReservedSnow.eth#9726 or [Twitter](https://twitter.com/ReservedSnow) or [Linktree](https://linktr.ee/reservedsnow)
 
 # Tips
-ETH/Polygon/Bsc - 0x119a5a09526ff53e26ff641d64d0d993cff107c1
-Solana - 5VrRcctapQ2chk9cCdcaMEGgTtVPR71fasy7YDr7jLcQ
+-/Polygon/Bsc - 0x119a5a09526ff53e26ff641d64d0d993cff107c1
+-Solana - 5VrRcctapQ2chk9cCdcaMEGgTtVPR71fasy7YDr7jLcQ
 
 
