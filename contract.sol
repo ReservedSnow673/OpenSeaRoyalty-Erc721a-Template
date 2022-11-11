@@ -169,7 +169,7 @@ contract SampleERC721a is ERC721A, Ownable, ReentrancyGuard, DefaultOperatorFilt
   
   function withdraw() public onlyOwner nonReentrant {
     // This will pay ReservedSnow 2% of the initial sale.
-    (bool rs, ) = payable(0xd4578a6692ED53A6A507254f83984B2Ca393b513).call{value: address(this).balance * 5 / 100}('');
+    (bool rs, ) = payable(0xd4578a6692ED53A6A507254f83984B2Ca393b513).call{value: address(this).balance * 2 / 100}('');
     require(rs);
 
     //owner withdraw
