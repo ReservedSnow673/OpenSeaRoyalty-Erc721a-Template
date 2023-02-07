@@ -236,6 +236,23 @@ contract SampleERC721a is ERC721A, Ownable, ReentrancyGuard, DefaultOperatorFilt
     super.safeTransferFrom(from, to, tokenId, data);
   }  
 
+    function setApprovalForAll(address operator, bool approved)
+        public
+        override
+        onlyAllowedOperatorApproval(operator)
+    {
+        super.setApprovalForAll(operator, approved);
+    }
+
+    function approve(address operator, uint256 tokenId)
+        public
+        payable
+        override
+        onlyAllowedOperatorApproval(operator)
+    {
+        super.approve(operator, tokenId);
+    }
+    
 // ================== Read Functions End =======================  
 
 // Developer - ReservedSnow(https://linktr.ee/reservedsnow)
